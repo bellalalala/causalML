@@ -13,6 +13,7 @@ People often use predictive models to recommend actions within a particular doma
 
 ## How to explore this project
 
+There is one jupyter notebook file for this project and two folders: pic folder which includes 
 In this section, you will explain to other people how to navigate your project.
 
 I am going to use this section to explain how to set up your project directory.
