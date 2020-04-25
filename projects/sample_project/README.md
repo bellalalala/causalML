@@ -13,16 +13,19 @@ People often use predictive models to recommend actions within a particular doma
 
 ## How to explore this project
 
-There is one jupyter notebook file for this project and two folders: pic folder which includes 
-In this section, you will explain to other people how to navigate your project.
+There is one jupyter notebook: **OOP-Scene-Generation** and two folders in this project: a **/pic** folder which includes the basic input images we have and a **/generatedPic** which includes all the final images generated.
 
-I am going to use this section to explain how to set up your project directory.
+* **OOP-Scene-Generation**: all project details are included in the jupyter notebook which can be used as a tutorial. The project can be run directly using the jupyter notebook with pre-installed packages mentioned below in **Reproducibility** part.
 
-Put your project in the appropriate project directory. Create a subdirectory for your project and give it a clear name that reflects specific elements of your project.  It should not conflict with other group's names, obviously.  For example, some students who analyzed Airbnb data analyzed Bay Area real estate, while others analyzed Austin TX.  So good subdirectory names would be "airbnb model bay area" and "airbnb model austin".
+* **/pic** folder: the input entity and background images are in this folder and their name have to match what the values are in jupyter notebook. (They should match the values of gender, type and background in the alias.) The image type has to be .png or .jpg. If there are both .png and .jpg file with the same name, .png file will be used by default.
 
-Set up your project directory as you see fit.  The two most important things are **presentation** and **reproducibility**.
+* **/generatedPic** folder: all the pictures generated from the code will be saved as .png file in this directory by default named with their descriptions. 
 
 ### Presentation
+
+There are a **built-in user interface** in the project. Users can select the variables and values that they want to condition or intervent on. The user interface generation function (userInterface()) needs to be run once to get the variable_choices window. After it is generated, users can change the values of the selected variables and click on the corresponding button everytime they want to get a new picture. The variable selection window are shared by all the buttons, so please make sure that correct values are selected before the image generation.
+
+
 
 Presentation means you have done your best to make it easy for future students to understand and learn from your work.  A bad presentation is having many badly named notebooks with lots of code, and little text explanation.  NEU students will be penalized for poor presentation.
 
